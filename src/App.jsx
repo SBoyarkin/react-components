@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import {ShopItemFunc} from "./componets/ShopItemFunc/ShopItemFunc.jsx";
+import {ShopItemClass} from "./componets/ShopItemClass/ShopItemClass.jsx";
 
 function App() {
     const [count, setCount] = useState(0)
@@ -14,7 +15,8 @@ function App() {
 
             </div>
             <div className="window">
-                <ShopItemFunc item={item}  />
+                {/*<ShopItemFunc item={item}  />*/}
+                <ShopItemClass item={item}  />
             </div>
         </div>
     )
