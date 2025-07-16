@@ -1,7 +1,6 @@
 import React from "react";
 
 export class ShopItemClass extends React.Component {
-
     render() {
         const { item } = this.props;
         return(

@@ -1,4 +1,4 @@
-export const ShopItemFunc = ({item, itemImg}) => {
+export const ShopItemFunc = ({item}) => {
     return (
         <>
             <div className="main-content">
