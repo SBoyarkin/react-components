@@ -7,6 +7,7 @@ function App() {
     const [count, setCount] = useState(0)
 
     return (
+        <>
         <div className="container">
             <div className="background-element">
             </div>
@@ -15,10 +16,15 @@ function App() {
 
             </div>
             <div className="window">
-                {/*<ShopItemFunc item={item}  />*/}
+                <ShopItemFunc item={item}  />
+
+            </div>
+            <div className="window">
                 <ShopItemClass item={item}  />
+
             </div>
         </div>
+        </>
     )
 }
 
